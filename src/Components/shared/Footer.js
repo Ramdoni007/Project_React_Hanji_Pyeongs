@@ -9,7 +9,7 @@ min-height: 10vh`;
 const Footer = () => (
   <Container>
     <p>
-      by <a href="https://devsaurus.com">devsaurus</a> &copy; 2021
+      by <a href="https://www.instagram.com/teamhanjipyeong/?hl=en">Team Hanji Pyeong</a> &copy; 2021
     </p>
   </Container>
 );
