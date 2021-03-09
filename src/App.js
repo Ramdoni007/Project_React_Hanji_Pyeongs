@@ -11,21 +11,19 @@ const Container = styled.div`
 
 function App() {
   return (
-    <div className="App">
-      <Container>
-        <Switch>
-          <Route path="/add">
-            <AddPage />
-          </Route>
-          <Route path="/edit">
-            <EditPage />
-          </Route>
-          <Route path="/">
-            <HomePage />
-          </Route>
-        </Switch>
-      </Container>
-    </div>
+    <Container>
+      <Switch>
+        <Route path="/add">
+          <AddPage />
+        </Route>
+        <Route path="/edit/:id">
+          <EditPage />
+        </Route>
+        <Route path="/">
+          <HomePage />
+        </Route>
+      </Switch>
+    </Container>
   );
 }
 
